@@ -1,9 +1,3 @@
-:root {
-	--primary-color: #dab88b;
-	--secondary-color: #fdf6ec;
-	--sub-color: #777;
-	--nice-blue: #b7cadb;
-}
 
 .work-heading {
     display: block;
@@ -16,6 +10,11 @@
 .project {
     border-color: var(--nice-blue);
     box-shadow: 20px 20px 0 -5px var(--secondary-color), 20px 20px var(--sub-color);
+    margin-bottom: 100px;
+}
+
+.projects :nth-child(2) {
+    border-color: var(--primary-color);
 }
 
 .project h3 {
@@ -35,4 +34,17 @@
     height: 50px;
     margin: 30px auto;
     color: var(--sub-color);
+}
+
+@media only screen and (min-width: 768px) {
+
+    .projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project {
+        margin: 0 30px;
+        margin-bottom: 50px;
+    }
 }

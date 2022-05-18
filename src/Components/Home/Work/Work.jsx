@@ -10,22 +10,41 @@ function Work() {
 				<h1>Work</h1>
 			</div>
 
-			<div className='section-text-box project'>
-				<h3>Project A</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
+			<div className='projects'>
+				<div className='section-text-box project'>
+					<h3>Project A</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
 
-				<div>
-					<ul className='project-languages'>
-						<li>- JavaScript</li>
-						<li>- Node.js</li>
-						<li>- PostgreSQL</li>
-					</ul>
+					<div>
+						<ul className='project-languages'>
+							<li>- JavaScript</li>
+							<li>- Node.js</li>
+							<li>- PostgreSQL</li>
+						</ul>
+					</div>
+
+					<FontAwesomeIcon icon={faGithub} className='icon-github' />
 				</div>
+				<div className='section-text-box project'>
+					<h3>Project B</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
 
-				<FontAwesomeIcon icon={faGithub} className='icon-github' />
+					<div>
+						<ul className='project-languages'>
+							<li>- JavaScript</li>
+							<li>- Node.js</li>
+							<li>- PostgreSQL</li>
+						</ul>
+					</div>
+
+					<FontAwesomeIcon icon={faGithub} className='icon-github' />
+				</div>
 			</div>
 		</div>
 	)
