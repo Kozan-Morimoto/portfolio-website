@@ -2,10 +2,14 @@ import React from 'react'
 import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
+import circleKozan from '../../../images/picture-and-shadow.png'
 function About() {
 	return (
 		<>
 			<div className='about'>
+				<div>
+					<img src={circleKozan} alt='Kozan' className='kozan-image' />
+				</div>
 				<h1 className='about-heading'>About Me</h1>
 				<div className='section-text-box about-text'>
 					<p>

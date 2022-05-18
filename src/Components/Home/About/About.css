@@ -1,23 +1,21 @@
-:root {
-	--primary-color: #dab88b;
-	--secondary-color: #fdf6ec;
-	--sub-color: #777;
-	--nice-blue: #b7cadb;
-}
-
 @font-face {
 	font-family: Botif;
 	src: url(/src/fonts/biotif-1/Biotif-Black.ttf);
 }
 
-.about {
-	margin-top: 140px;
+.kozan-image {
+	position: relative;
+	z-index: 1;
+	display: block; /* You must have this for margin auto to work */
+	width: 35vh;
+	margin: 0 auto;
 }
 
 .about-heading {
 	font-size: 30px;
 	text-align: center;
 	margin: 50px;
+	margin-top: 70px;
 }
 
 .about-text {
@@ -34,4 +32,29 @@
 	margin-right: 15px;
 	text-align: right;
 	color: var(--nice-blue);
+}
+
+@media only screen and (min-width: 768px) {
+	.about {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
+
+	.about-heading {
+		margin: 0;
+		display: block;
+		top: 150px;
+	}
+
+	.kozan-image {
+		width: 300px;
+		margin-top: 100px;
+	}
+
+	.about-text {
+		height: 300px;
+		margin: 0;
+		margin-top: 100px;
+	}
 }
