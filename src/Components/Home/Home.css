@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #DAB88B;
+    --secondary-color: #FDF6EC;
+    --sub-color: #777;
+    --nice-blue: #B7CADB;
+}
+
+@font-face {
+    font-family: Bogart;
+    src: url(/src/fonts/bogart/Bogart-Regular-trial.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    overflow: hidden;
+    font-family: Bogart, 'Times New Roman', Times, serif;
+}
+
+.home {
+    background-color: var(--secondary-color);
+
+}
+
+.section-text-box {
+    height: 100%;
+    margin: 0 30px 50px 30px;
+    border: 5px solid;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.section-text-box p {
+    padding: 0px 30px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    color: var(--sub-color);
+}
+
+footer p {
+    margin: 0;
+}

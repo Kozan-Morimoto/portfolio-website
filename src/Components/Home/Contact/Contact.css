@@ -1,0 +1,23 @@
+:root {
+	--primary-color: #dab88b;
+	--secondary-color: #fdf6ec;
+	--sub-color: #777;
+	--nice-blue: #b7cadb;
+}
+
+.contact {
+	margin-top: 200px;
+}
+
+.contact h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.contact-links {
+	display: flex;
+	margin: 0 30px;
+	justify-content: space-evenly;
+	color: var(--sub-color);
+	font-size: 45px;
+}

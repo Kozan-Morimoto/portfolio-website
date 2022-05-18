@@ -1,0 +1,38 @@
+:root {
+	--primary-color: #dab88b;
+	--secondary-color: #fdf6ec;
+	--sub-color: #777;
+	--nice-blue: #b7cadb;
+}
+
+.work-heading {
+    display: block;
+    margin-top: 100px;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.project {
+    border-color: var(--nice-blue);
+    box-shadow: 20px 20px 0 -5px var(--secondary-color), 20px 20px var(--sub-color);
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.project p {
+    padding: 0px 30px;
+}
+
+.project-languages li{
+    list-style: none;
+}
+
+.icon-github {
+    display: block;
+    height: 50px;
+    margin: 30px auto;
+    color: var(--sub-color);
+}

@@ -1,0 +1,75 @@
+:root {
+	--primary-color: #dab88b;
+	--secondary-color: #fdf6ec;
+	--sub-color: #777;
+	--nice-blue: #b7cadb;
+}
+
+.top {
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: monospace;
+}
+
+.top * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.top-text {
+	background-color: var(--nice-blue);
+	height: 100%;
+}
+
+#hello {
+	position: relative;
+	padding-top: 25vh;
+	margin-left: 30px;
+	font-size: 60px;
+	color: var(--secondary-color);
+}
+
+#im {
+	position: relative;
+	margin-left: 30px;
+	font-size: 60px;
+	color: var(--secondary-color);
+}
+
+#kozan {
+	position: relative;
+	margin-left: 30px;
+	font-size: 60px;
+	font-family: Bogart, serif;
+	color: var(--sub-color);
+}
+
+#software {
+	position: relative;
+	padding-bottom: 10vh;
+	margin-left: 30px;
+	color: var(--sub-color);
+	font-size: 30px;
+}
+
+.kozan-image {
+	position: relative;
+	z-index: 1;
+	display: block; /* You must have this for margin auto to work */
+	height: 35vh;
+	margin: 60px auto 0 auto;
+}
+
+.fade-up {
+	opacity: 0;
+	transform: translateY(55%);
+	transition: opacity 1200ms ease-out, transform 700ms ease-out;
+}
+
+.fade-up.appear {
+	opacity: 1;
+	transform: translateY(0);
+}
