@@ -6,11 +6,13 @@
 .contact h1 {
 	font-size: 30px;
 	text-align: center;
+	margin: 0;
 }
 
 .contact-links {
 	display: flex;
 	margin: 0 30px;
+	margin-top: 70px;
 	justify-content: space-evenly;
 	color: var(--sub-color);
 	font-size: 45px;
