@@ -17,32 +17,28 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-size: 50px;
 }
 
 .top-text {
 	background-color: var(--nice-blue);
 	height: 100%;
+	padding-left: 30px;
 }
 
 #hello {
 	position: relative;
 	padding-top: 25vh;
-	margin-left: 30px;
-	font-size: 60px;
 	color: var(--secondary-color);
 }
 
 #im {
 	position: relative;
-	margin-left: 30px;
-	font-size: 60px;
 	color: var(--secondary-color);
 }
 
 #kozan {
 	position: relative;
-	margin-left: 30px;
-	font-size: 60px;
 	font-family: Bogart, serif;
 	color: var(--sub-color);
 }
@@ -50,7 +46,6 @@
 #software {
 	position: relative;
 	padding-bottom: 10vh;
-	margin-left: 30px;
 	color: var(--sub-color);
 	font-size: 30px;
 }
